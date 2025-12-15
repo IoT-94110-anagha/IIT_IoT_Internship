@@ -13,7 +13,7 @@ def cal(func,a,b):
 
 a=int(input("enter num:"))
 b=int(input("enter num:"))
-print(cal(add,a,b))
-print(cal(sub,a,b))
-print(cal(mul,a,b))
-print(cal(div,a,b))
+print("Addition:",cal(add,a,b))
+print("substraction:",cal(sub,a,b))
+print("Multiplication:",cal(mul,a,b))
+print("Division:",cal(div,a,b))
